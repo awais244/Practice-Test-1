@@ -3,15 +3,99 @@
 
 <head>
     <title>Question 3</title>
-    <!-- 
-Write an article using semantic markup, header, footer, main and section. In the article compare and contrast old fashioned typesetting with desktop pubishing, html and css.
-Color the header with white text on a blue background, the footer with white text on a green background, the main portion with black text o a parchment colored background. 
-Make the nouns in the header and footer have a text weight of 600, while the rest of the text has a font-weight of 400.
-    -->
+    <style>
         
+        header {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        header strong {
+            font-weight: 600; 
+        }
+
+       
+        footer {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer strong {
+            font-weight: 600; 
+        }
+
+      
+        main {
+            background-color: #f5deb3; 
+            color: black;
+            padding: 20px;
+            font-family: serif;
+            font-weight: 400; 
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            font-family: sans-serif;
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <h1><strong>Comparison</strong> of <strong>Typesetting</strong> and <strong>Publishing</strong></h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Old-Fashioned Typesetting</h2>
+            <p>
+                Traditional typesetting involved manually arranging physical letters and symbols to create text layouts.
+                This process was labor-intensive and required skilled typographers to align and space text properly.
+                While it offered high precision and a tactile experience, it was slow and limited in flexibility.
+            </p>
+        </section>
+        
+        <section>
+            <h2>Desktop Publishing</h2>
+            <p>
+                Desktop publishing revolutionized typesetting by introducing digital tools that enabled users to design
+                layouts on computers. Software like Adobe InDesign and Microsoft Publisher allowed for faster creation
+                of complex layouts with greater customization, significantly reducing production time and effort.
+            </p>
+        </section>
+        
+        <section>
+            <h2>HTML and CSS</h2>
+            <p>
+                HTML and CSS take publishing to the web, enabling dynamic and responsive layouts for digital consumption.
+                HTML provides the structure of the content, while CSS handles the styling and presentation. This approach
+                allows for interactivity, accessibility, and scalability, making it ideal for modern publishing needs.
+            </p>
+        </section>
+
+        <section>
+            <h2>Comparison</h2>
+            <p>
+                While old-fashioned typesetting emphasized manual precision and craft, desktop publishing focused on
+                accessibility and efficiency for print media. HTML and CSS go further by prioritizing accessibility,
+                interactivity, and compatibility across digital platforms, providing a flexible solution for modern
+                web publishing.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Created with <strong>passion</strong> for <strong>design</strong> and <strong>technology</strong>.
+        </p>
+    </footer>
 </body>
 
 </html>
